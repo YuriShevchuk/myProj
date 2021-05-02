@@ -1,18 +1,22 @@
 <div class="container d-flex flex-column">
-    <div class="about lead my-4">
-        <h2>About me:</h2>
+    <div class="about row justify-content-center lead my-4">
+        <div class="col-11 col-md-10 col-lg-8">
+        <p class="display-6">About me:</p>
         <p> I am interested in IT and everything in its orbit. </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        <p class="lh-base">Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Reiciendis nam vitae debitis. Temporibus ipsum sint
-            officia beatae illo modi atque. Quia eligendi doloremque modi 
+            officia beatae illo modi atque. Quia eligendi doloremque modi
             odit labore. Quis modi placeat quia!</p>
+        </div>
     </div>
-    <div class="hobby lead">
-        <h2>Hobbies:</h2>
-        <ul>
-            <li>Reading books</li>
-            <li>Gym & yoga</li>
-            <li>Playing video games</li>
-        </ul>
+    <div class="hobby row justify-content-center lead">
+        <div class="col-11 col-md-10 col-lg-8">
+            <p class="display-6">Hobbies:</p>
+            <ul>
+                <li *ngFor='let hobby of hobbies' class="py-1">
+                    {{ hobby }}
+                </li>
+            </ul>
+        </div>
     </div>
 </div>

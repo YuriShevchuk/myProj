@@ -2,7 +2,7 @@
 
 .home {
   background-image: url(../../assets/bg-full.jpg);
-  height: 91.5%;
+  height: 92%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,14 +10,16 @@
 a {
   text-decoration: none;
   color: #ccc;
-  font-size: 20px;
 }
 .caption {
   text-align: center;
   color: #ccc;
   background-color: #212529;
+  border-radius: 3%;
+
 }
-.links {
-  background-color: #212529;
-  height: 94px;
+
+.photo {
+  width: 72%;
+  border-radius: 50%;
 }
